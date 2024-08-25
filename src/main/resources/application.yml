@@ -29,3 +29,8 @@ info:
 logging:
   level:
     com.openmpy.actuator.controller: debug
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
